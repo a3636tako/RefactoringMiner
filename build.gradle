@@ -32,6 +32,10 @@ dependencies {
 	compile 'com.fasterxml.jackson.core:jackson-annotations:2.8.4'
 	compile 'junit:junit:4.11'
 	
+	// https://mvnrepository.com/artifact/org.eclipse.jdt/org.eclipse.jdt.core
+	compile group: 'org.eclipse.jdt', name: 'org.eclipse.jdt.core', version: '3.15.0'
+
+	/*
 	compile files('lib/org.eclipse.core.commands_3.7.0.v20150422-0725.jar')
 	compile files('lib/org.eclipse.core.contenttype_3.5.0.v20150421-2214.jar')
 	compile files('lib/org.eclipse.core.expressions_3.5.0.v20150421-2214.jar')
@@ -46,6 +50,7 @@ dependencies {
 	compile files('lib/org.eclipse.jdt.core_3.12.1.v20160829-0950.jar')
 	compile files('lib/org.eclipse.osgi_3.10.101.v20150820-1432.jar')
 	compile files('lib/org.eclipse.text_3.5.400.v20150505-1044.jar')
+	*/
 	compile files('lib/commons-codec-1.10.jar')
 	compile files('lib/commons-lang-2.6.jar')
 	compile files('lib/github-api-1.84.jar')
